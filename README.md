@@ -1,4 +1,4 @@
-## Classification - Online Shoppers Purchasing Intention
+## Classification - Churn For Bank Customer
 
 The purpose of this project is to analyze the purchasing behavior patterns of e-commerce visitors and to increase the conversion rate to purchase. The results show that page values, the number of visited pages, has the greatest impact on a visitor's purchase decision. The conversion rate to purchase increases up to 60% by applying an actionable recommendation from insights that boost the number of visited pages.
 
