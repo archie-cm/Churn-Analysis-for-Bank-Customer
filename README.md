@@ -1,9 +1,10 @@
 ## Classification - Churn For Bank Customer
 
 **Problem Statement**
+
 ![4](https://user-images.githubusercontent.com/108534539/206376148-34a51aee-2994-442f-ba5b-d729eb7f0244.jpg)
 
-The purpose of this project is to analyze the bank customer behavior patterns and to decrease churn rate. The results show that page values, the number of visited pages, has the greatest impact on a visitor's purchase decision. The conversion rate to purchase increases up to 60% by applying an actionable recommendation from insights that boost the number of visited pages.
+**Goal & Obejctive**
 
 ![5](https://user-images.githubusercontent.com/108534539/206376218-cf68a962-07a8-49d1-80bb-f9c30d2aff94.jpg)
 
