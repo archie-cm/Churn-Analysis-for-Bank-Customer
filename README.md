@@ -1,6 +1,10 @@
 ## Classification - Churn For Bank Customer
 
+![4](https://user-images.githubusercontent.com/108534539/206376148-34a51aee-2994-442f-ba5b-d729eb7f0244.jpg)
+
 The purpose of this project is to analyze the purchasing behavior patterns of e-commerce visitors and to increase the conversion rate to purchase. The results show that page values, the number of visited pages, has the greatest impact on a visitor's purchase decision. The conversion rate to purchase increases up to 60% by applying an actionable recommendation from insights that boost the number of visited pages.
+
+![5](https://user-images.githubusercontent.com/108534539/206376218-cf68a962-07a8-49d1-80bb-f9c30d2aff94.jpg)
 
 **Tools**: Python, JupyterLab, Git
 
@@ -15,6 +19,11 @@ The purpose of this project is to analyze the purchasing behavior patterns of e-
 * From exploratory data analysis, visitors with low exit and bounce rates and high page values, tend to make a purchase.
 * Based on data characteristics, the selected algorithm to build a classification model is tree-based or ensemble. The classification model with the random forest algorithm is able to correctly predict 62% of visitors who make a purchase.
 * The result shows that page values, a number of visited pages, are the biggest impact on visitors' purchase decisions. The conversion rate to purchase increases up to 60% by applying an actionable recommendation from insights that boost page values of visitors.
+
+![17](https://user-images.githubusercontent.com/108534539/206376346-866c1ee0-85a7-461b-a8ad-c68f483a7498.jpg)
+
+![18](https://user-images.githubusercontent.com/108534539/206376392-b9f6fedb-44b5-4f3c-bf3c-7f40f0162376.jpg)
+
 
 **What I have learned**
 * Framing the business problem. 
