@@ -13,12 +13,13 @@ The purpose of this project is to analyze the purchasing behavior patterns of e-
 **Dataset**: Online Shoppers Purchasing Intention, UCI Machine Learning, 2018 [[source]](https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset)
 
 **Summary of the analysis**
-* This dataset has 12330 observations and 18 variables with 10 numerical variables, 7 categorical variables and one target variable.
+* This dataset has 10000 observations and 14 variables with 11 numerical variables, 3 categorical variables and one target variable.
 * All numerical variables have a right-skewed distribution and contain a lot of outliers. 
-* Revenue is the target variable that labels a visitor's purchase decision either purchase (class True) or not purchase (class False). The current condition is only 15% of total visitors who make a purchase. 
-* From exploratory data analysis, visitors with low exit and bounce rates and high page values, tend to make a purchase.
-* Based on data characteristics, the selected algorithm to build a classification model is tree-based or ensemble. The classification model with the random forest algorithm is able to correctly predict 62% of visitors who make a purchase.
-* The result shows that page values, a number of visited pages, are the biggest impact on visitors' purchase decisions. The conversion rate to purchase increases up to 60% by applying an actionable recommendation from insights that boost page values of visitors.
+* Exited is the target variable that labels a 0 (not churn) and 1 (churn). The current condition is 20% of customer churn 
+* From exploratory data analysis, customer who use num of products > 2 have trend churn, The older the customer, the higher the churn rate
+* Based on data characteristics, the selected algorithm to build a classification model is tree-based or ensemble. The classification model with the xgboost algorithm is able to correctly predict 75% of visitors who make a purchase.
+* Age, NumOfProduct, Gender Male, Geography France and IsActiveMember are the biggest impact on churn rate.
+* Percentage Saving cost with model have 69%
 
 ![17](https://user-images.githubusercontent.com/108534539/206376346-866c1ee0-85a7-461b-a8ad-c68f483a7498.jpg)
 
@@ -31,11 +32,6 @@ The purpose of this project is to analyze the purchasing behavior patterns of e-
 * Make a business simulation from insights that calculate the increase in the conversion rate.
 
 **File Dictionaries**
-* [proof-of-concepts.ipynb](https://github.com/irfan-fadhlurrahman/online-shoppers-purchasing-intention/blob/main/proof-of-concepts.ipynb): this notebook contains all of project details, such as business understanding, exploratory data analysis & insights, data preprocessing and modeling.
+* [EDA_2Pendo (1).ipynb](https://github.com/archie-cm/churn-for-bank-customer/blob/main/EDA_2Pendo%20(1).ipynb): this notebook contains all of project details, such as business understanding, exploratory data analysis & insights, data preprocessing and modeling.
 * [presentation-appendix.ipynb](https://github.com/irfan-fadhlurrahman/online-shoppers-purchasing-intention/blob/main/presentation-appendix.ipynb): this notebook contains all data visualizations for presentation slides and the details of business simulation, a calculation of increased conversion rate after applying an actionable recommendation.
 * [Final Project Presentation Slides.pdf](https://github.com/irfan-fadhlurrahman/online-shoppers-purchasing-intention/blob/main/Final%20Project%20Presentation%20Slides.pdf): summary of the project.
-* [requirements.txt](https://github.com/irfan-fadhlurrahman/online-shoppers-purchasing-intention/blob/main/requirements.txt): list of used libraries with its version.
-
-**Folder Dictionaries**
-* Stage 0 - Stage 4: the progress of the project per each stage.
-* dataset: the original data from Kaggle and the data that has been preprocessed.
